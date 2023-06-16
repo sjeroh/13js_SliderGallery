@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h2>Slider Gallery</h2>
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1/6</div>
+      <img src="img/Aston_Martin-DB6_Volante_SWB-1966-1280-01.jpg" alt="">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2/6</div>
+      <img src="img/Mercedes-Benz-300_SE_W112-1961-1280-01.jpg" alt="">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3/6</div>
+      <img src="img/BMW-M1_Procar-1978-1280-01.jpg" alt="">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4/6</div>
+      <img src="img/BMW-M5-1984-1280-02.jpg" alt="">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5/6</div>
+      <img src="img/Hyundai-Pony_Concept-2021-1280-02.jpg" alt="">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6/6</div>
+      <img src="img/Kia-Sorento-2003-1280-01.jpg" alt="">
+    </div>
+    <a href="#" class="prev"><i class="fas fa-caret-left" alt="" onclick="plusSlides(-1)"></i></a>
+    <a href="#" class="next"><i class="fas fa-caret-right" alt="" onclick="plusSlides(1)"></i></a>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/Aston_Martin-DB6_Volante_SWB-1966-1280-01.jpg" alt="" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Mercedes-Benz-300_SE_W112-1961-1280-01.jpg" alt="" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/BMW-M1_Procar-1978-1280-01.jpg" alt="" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/BMW-M5-1984-1280-02.jpg" alt="" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Hyundai-Pony_Concept-2021-1280-02.jpg" alt="" onclick="currentSlide(5)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Kia-Sorento-2003-1280-01.jpg" alt="" onclick="currentSlide(6)">
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
